@@ -1,0 +1,41 @@
+
+.nav-bar{
+    width: 100vw;
+    background-color: #dbdbdb;
+    height: 10vh;
+    padding: 1% 2% 0%
+}
+
+.text-area {
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 22px;
+    padding: 5% 7% 7% 7%
+}
+
+.first {
+    width: 100vw;
+    background-color: #338cd6;
+    height: 14vh
+}
+.second {
+    width: 100vw;
+    background-color: #6bdbdb;
+    height: 14vh
+}
+.third {
+    width: 100vw;
+    background-color: #b4ea6e;
+    height: 14vh
+}
+.fourth {
+    width: 100vw;
+    background-color: #f1f738;
+    height: 14vh
+}
+.blue-box{
+    height:90%;
+    width: 95px;
+    background-color: #338cd6;
+    text-align: center;
+}

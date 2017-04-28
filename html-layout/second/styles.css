@@ -1,0 +1,44 @@
+*
+{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    vertical-align:baseline
+}
+.col-1 {
+    background-color: #4A90E2;
+    height: 100vh;
+    width: calc(100% /3);
+    float: left
+}
+
+.col-2 {
+    background-color: #50E3C2;
+    height: 100vh;
+    width: calc(100% /3);
+    float:left;
+}
+.col-3 {
+    background-color: #B8E986;
+    height: 80vh;
+    width: calc(100%/3);
+    float:left;
+}
+
+.photo-box {
+    background-color: #D0021B;
+    height:20vh;
+    width: calc(100%/3);
+    float:left;
+    text-align: center;
+    color: white;
+    
+}
+.text{
+    margin: 15%;
+    font-size: 35px;
+    font-family: sans-serif;
+    
+}
+
