@@ -18,6 +18,8 @@ button{
     font-size: 1.3em;
     color: white;
     margin: 0% .8% 0% 0%;
+    border: none;
+outline: none;
 }
 
 button.red-btn {
