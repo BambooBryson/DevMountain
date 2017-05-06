@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900italic');
+
+html, body {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-home-main {
+    background: url(img/bk-theme.jpg) center no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    position: fixed;
+}
+
+.nav-wrapper {
+    width:100%;
+    height: 80px;
+    background: white;
+    font-family: "lato";
+}
+
+.hamburger-menu {
+    height: 50px;
+    width: 50px;
+    background: url(img/burger.png) white;
+    float: right;
+    margin-right: 40px;
+    margin-top: 12.5px;
+}
+.header-logo {
+    height: 50px;
+    width: 50px;
+    background: url(img/wot-logo-whitex2.svg) no-repeat;
+    float: left;
+    margin-left: 40px;
+    margin-top:12.5px;
+    background-size: cover;
+}
+
+.left-logo {
+    height: 50px;
+    width: 50px;
+    background: url(img/wot-logo-whitex2.svg) no-repeat;
+    background-size: cover;
+    float:left;
+
+}
+
+.left-text {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    float: left;
+    display: none;
+    margin: 3% 0 0 10%;
+
+}
+.left-text p {
+    font-size: 10px;
+    margin:0 0 0 11px;
+    line-height: 0;
+}
+
+
+.nav-bar {
+    display: none;
+    background-color: transparent;
+    list-style: none;
+    margin: 3.5% 10% 0 0;
+    float: right;    
+}
+
+.nav-bar li {
+    margin-right: 8px;
+    margin-top: 200px;
+    position: relative;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+@media (min-width: 700px) {
+    .hamburger-menu {
+        display: none;
+    }
+    .header-logo {
+        display:none;
+    }
+    
+    .nav-wrapper {
+        background-color:transparent;
+    }
+    .nav-bar {
+        display: block;
+    }
+    .nav-bar li {
+        display: inline;
+    }
+    .left-text {
+        display: block;
+    }
+}
